@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-computing-web-app-332414",
+  "private_key_id": "76fe2e1f81c3ce4824ea16a75ac64f31494584bb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8etZftPdqRH3f\nf1ppZdyFWIcn5R8KrSesDQtOhdpx4jfcK0IHZLEQCKs2SMUo4YJKxauRys9vC+pz\naA/ZjFBspTRK3xY4imAht6KMZJy2eJHoAdLTfmhuW7f25QiSy5KWZBYy01vWUGZy\nwbG7KzMJHB/N00vFytSR6ZY5J2tZG7ZHl1CdDgWkkrZKwfwPUl0q7B1WU/pGz6qu\n/k+2xdkKnNgvFMkk70FhwiXneujj3lGpgmXnCCTmTC1NcThD+ua1hvUQmZi9BnIU\nZT1WlikZ08+k1LYqksiFQVJAlCSpl2jXXiPioYlqu0NtI3Wx/bb/MzsXH195LhLA\nznY5+13pAgMBAAECggEAM4kE17t0ER70Kem5D2uWLfHEVuC7qaAp4k3YwxovXgdE\nTdOYJMxf66nrIpcoLaLnjMlavazuJgdkjjSsbMgEb4iGcVhpS4Fugpmi/O8/uFbk\nUkM5YbHFHTO/6+a4/uZhyPRJ65DGIiXutT8H+Uz5EesaOR2msMjicZkkhbElFYJZ\na7rTb8iVZm6c345AVMwqncGn04Y7S1j43BjM8cDx2tSmV3fkqraFVFyT1g+pEB/6\nRv6LwtAqa9uBCtXPIrA4rrMXpubsfupM7O+1vg8IC4GYLgyXKr8dW0b25zxadAEv\nVz4kXaTby1PJSHmiftJI52//A+saz3nr+qjdbj7ZVwKBgQDp0TgDy98Gq/hDVAad\n9XM3cp2WefO5KAF4TpALCw7EpLEDMxXRWTP94b6lSQo8uBBmDVf2g4D8+k/5Cj9W\ncNVhXUDkTEiYPLM+bVkZ/Tl3lHJFA0+7nZIxNCUPw3zMIsvIwjYRbLtdR7+Lsumk\nQNmXUa+xIVrAUb7j9/qToO4NRwKBgQDOXH8gjM9ZC3mfU7Cax9dBaFRGmW4xbQhL\noi/67qWteh8o1cNSTdFzC8Eu9vMlVa78NCiCjjzB9iTHNGAIqWBClG23/jeJ1gJF\n8UiECnESM6XvAqAcsmniqdC/de/0z77Xae454QUz5gQhcOHSv/B2QW8EgBlI+qMK\nvyEvnq8TTwKBgFStFjIZxP0vjksjxPmziDROZ8+0/pTRbibZnMTDDmgclJZqC76z\nJWcON/K3zuNKbXXn4zE9UptLM2cnVOTDHCOUmAmVrryjTu6OvzPwRr2NnwxrNJbn\na6gyEDHzQ+DRwSdFXjtVO01+zFmVQ5PegG6SgKQPRkRb1lvM1IxePZfFAoGAdOub\na8ncQUtrIYa9bTUFFR4Tgdy0vnRUWuYN4VMNs/iZZv2WqS9GGLT0Q7PPl7uwZVz4\nBuCoNA1OUT+vmbi9vXtznuf+d641o4NN3uI7pmB1B7KpHRlJPQ+SIqijyEVcj5iJ\nTWndFMaiWIAossvlZls0l4wsx1iawCACoYR7FakCgYBW6vJVC9cM0QiMAfiYsZ1c\n96Lm594QGg/UNqU2ANgLyyp+I7sedsfdaXYhuwOSXALiZ2BM2vMl0Mmq/1H5QkUr\n+fqXur2LSuVpQGhlS3lyBd7NdzvHKIxGlwWP08qRVOhsjHhnvex6yTBVyXa24j0o\nGujzQLNs1kHj2areDURDyg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloudstorageforappengine@cloud-computing-web-app-332414.iam.gserviceaccount.com",
+  "client_id": "111141242187553583756",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloudstorageforappengine%40cloud-computing-web-app-332414.iam.gserviceaccount.com"
+}
