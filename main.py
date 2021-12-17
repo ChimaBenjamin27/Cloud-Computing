@@ -21,6 +21,7 @@ from flask import Flask, render_template, request, redirect, session, abort
 from flask_login.login_manager import LoginManager
 from auth.gauth import gauth
 from views.home import home
+from views.adminView import adminView
 
 
 #set environment variable to not need HTTPS for developing purposes
@@ -38,6 +39,7 @@ def create_app():
     # register a blueprint for authorization.
     app.register_blueprint(gauth, url_prefix="/auth")
     app.register_blueprint(home, url_prefix="")
+    app.register_blueprint(adminView, url_prefix="/adminView")
     database.db.init_app(app)
 
     return app
@@ -48,6 +50,7 @@ if __name__ == '__main__':
     # can configure startup instructions by adding `entrypoint` to app.yaml.
     app = create_app()
     app.run(host='127.0.0.1', port=8080, debug=True)
+    #app.run(host='127.0.0.1', port=8050, debug=True)
 else:
     app = create_app()
 # [END gae_python3_app]

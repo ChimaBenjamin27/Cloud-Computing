@@ -14,7 +14,7 @@ home = Blueprint("home", __name__, static_folder="../static/", template_folder="
 # The default (aka home) route for the app
 @home.route('/', methods=['POST', 'GET'])
 def index():
-    # if the subnit method is a "POST" then we can determine that a form has been submitted
+    # if the submit method is a "POST" then we can determine that a form has been submitted
     if request.method == 'POST':
         # check the request for a form named 'content' (i/e in templates > index.html there is a form there with an action to submit to route '/' and called content)
         task_content = request.form['content']

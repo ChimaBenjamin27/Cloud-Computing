@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Admin View</title>
+{% endblock %}
+
+{% block body %}
+<div class="auth">
+    <div class="content">
+            <h1 style="text-align: center;">Admin View</h1>
+            <h1>Hello {{session['name']}} {{session['google_id']}}</h1>
+            {% if tasks | length < 1 %}
+                <h4 style="text-align: center;">Create a new task now</h4>
+            {% else %}
+            <table>
+                <tr>
+                    <th>Task</th>
+                    <th>Added</th>
+                    <th>Files</th>
+                    <th>Actions</th>
+                    
+                </tr>
+                {% for task in tasks %}
+                    <tr>
+                        <td>{{task.content}}</td>
+                        <td>{{task.date_created.date()}}</td>
+                        <td>
+                            <form enctype="multipart/form-data" action='/download/{{task.id}}' method='GET'>
+                                <input type="file" name="filestodownload" multiple><br><br>
+                             </form>
+                        </td>
+                        <td>
+                            <form action='/' method='POST'>
+                                <input type="text" name="content" id="content">
+                                <input type="submit" value="Quote">
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+            
+    </div>
+{% endblock %}
