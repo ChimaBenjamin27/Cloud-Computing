@@ -21,7 +21,7 @@ from flask import Flask, render_template, request, redirect, session, abort
 from flask_login.login_manager import LoginManager
 from auth.gauth import gauth
 from views.home import home
-from views.adminView import adminView
+from views.Admin.adminView import adminView
 
 
 #set environment variable to not need HTTPS for developing purposes
@@ -39,7 +39,7 @@ def create_app():
     # register a blueprint for authorization.
     app.register_blueprint(gauth, url_prefix="/auth")
     app.register_blueprint(home, url_prefix="")
-    app.register_blueprint(adminView, url_prefix="/adminView")
+    app.register_blueprint(adminView, url_prefix="/admin/view")
     database.db.init_app(app)
 
     return app

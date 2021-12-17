@@ -1,4 +1,5 @@
 import traceback
+import flask
 
 from flask.blueprints import Blueprint
 from flask import Flask, render_template, request, redirect
@@ -49,4 +50,4 @@ def download(id):
         newFilename = str(id)+download.filename+str(datetime.now())+str(randint(1000, 9999))
         ## use the gcpstorage package to help upload so this file can stay clean and have loosely coupled relationships
         gcpstorage.upload_to_bucket(newFilename, download)
-    return redirect('/adminView')
+    return redirect('/admin/view')
